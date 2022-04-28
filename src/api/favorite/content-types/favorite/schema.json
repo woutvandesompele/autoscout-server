@@ -4,15 +4,19 @@
   "info": {
     "singularName": "favorite",
     "pluralName": "favorites",
-    "displayName": "Favorite"
+    "displayName": "Favorite",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "userName": {
-      "type": "string"
+    "userId": {
+      "type": "integer"
+    },
+    "carId": {
+      "type": "integer"
     }
   }
 }

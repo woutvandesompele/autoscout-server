@@ -12,7 +12,7 @@ npm run develop
 yarn develop
 ```
 
-`qsdfmlkjqsdmlfkj`
+`qsdfmlkjfkj`
 
 ### `start`
 
