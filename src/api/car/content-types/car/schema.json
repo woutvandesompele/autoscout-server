@@ -21,9 +21,6 @@
     "Mileage": {
       "type": "biginteger"
     },
-    "Year": {
-      "type": "date"
-    },
     "Cover": {
       "type": "media",
       "multiple": false,
@@ -37,6 +34,15 @@
       "relation": "manyToMany",
       "target": "api::profile.profile",
       "inversedBy": "favoriteCars"
+    },
+    "Price": {
+      "type": "biginteger"
+    },
+    "Year": {
+      "type": "integer"
+    },
+    "username": {
+      "type": "string"
     }
   }
 }
